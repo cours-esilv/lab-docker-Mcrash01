@@ -1,0 +1,1 @@
+docker run -p 80:80 -d -e ws_back_url=http://host.docker.internal:8080 mcrash01/myapp_front:v1
